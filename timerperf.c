@@ -25,6 +25,8 @@ main(int argc, char *argv[])
   int i;
   float diff;
 
+  fprintf(stderr, "Please wait a few moments...\n");
+
   gettimeofday(&before, 0);
   for (i = 0; i < N; i++) {
     gettimeofday(&now, 0);
